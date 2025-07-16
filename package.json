@@ -1,0 +1,22 @@
+{
+  "name": "carbonic",
+  "displayName": "Carbonic",
+  "description": "Color theme based on IBM Carbon color system.",
+  "version": "0.0.1",
+  "publisher": "nashpatty",
+  "engines": {
+    "vscode": "^1.0.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Carbonic",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Carbonic-color-theme.json"
+      }
+    ]
+  }
+}
