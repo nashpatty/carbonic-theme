@@ -2,7 +2,7 @@
   "name": "carbonic",
   "displayName": "Carbonic",
   "description": "Color theme based on IBM Carbon color system.",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "publisher": "nashpatty",
   "engines": {
     "vscode": "^1.0.0"

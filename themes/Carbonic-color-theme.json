@@ -1,23 +1,23 @@
 {
 	"name": "Carbonic",
 	"colors": {
-		"editor.background": "#161616",
-        "editor.foreground": "#c6c6c6",
-        "editor.selectionBackground": "#003a6d",
+		"editor.background": "#262626",
+        "editor.foreground": "#e0e0e0",
+        "editor.selectionBackground": "#003a6dd9",
 		"editorWhitespace.foreground": "#525252",
-        "editor.lineHighlightBackground": "#202020",
+		"editor.lineHighlightBorder": "#39393980",
         "editorLineNumber.foreground": "#525252",
-        "editorLineNumber.activeForeground": "#8d8d8d",
+        "editorLineNumber.activeForeground": "#a8a8a8",
         "editorBracketMatch.background": "#393939",
         "editorBracketMatch.border": "#525252",
         "editorBracketHighlight.unexpectedBracket.foreground": "#fa4d56",
         "editor.wordHighlightBackground": "#52525280",
-        "editor.wordHighlightStrongBackground": "#003a6d80",
-        "editorIndentGuide.background1": "#262626",
-        "editorIndentGuide.activeBackground1": "#474747",
+        "editor.wordHighlightStrongBackground": "#002d9c80",
+        "editorIndentGuide.background1": "#393939bf",
+        "editorIndentGuide.activeBackground1": "#525252",
         "editorRuler.foreground": "#262626",
-        "editor.findMatchBackground": "#004144",
-        "editor.findMatchHighlightBackground": "#750e1380",
+        "editor.findMatchBackground": "#750e13",
+        "editor.findMatchHighlightBackground": "#044317d9",
 
         // terminal colors
         "terminal.ansiBlack": "#161616",
@@ -29,15 +29,15 @@
         "terminal.ansiBrightMagenta": "#d4bbff",
         "terminal.ansiBrightRed": "#fa4d56",
         "terminal.ansiBrightWhite": "#f4f4f4",
-        "terminal.ansiBrightYellow": "#d2a106",
+        "terminal.ansiBrightYellow": "#f1c21b",
         "terminal.ansiCyan": "#3ddbd9",
         "terminal.ansiGreen": "#6fdc8c",
         "terminal.ansiMagenta": "#d4bbff",
         "terminal.ansiRed": "#EA4430",
         "terminal.ansiWhite": "#f4f4f4",
-        "terminal.ansiYellow": "#d2a106",
+        "terminal.ansiYellow": "#f1c21b",
         "terminal.background": "#262626",
-        "terminal.foreground": "#c6c6c6",
+        "terminal.foreground": "#e0e0e0",
 	},
 	"tokenColors": [
         {
@@ -51,7 +51,7 @@
             "name": "no highlight",
             "scope": "variable.parameter,variable.other,string.unquoted.argument.shell,storage.type.object,storage.type.java,constant.other.option",
             "settings": {
-                "foreground": "#c6c6c6"
+                "foreground": "#e0e0e0"
             }
         },
 		{
@@ -68,7 +68,7 @@
                 "variable.legacy.builtin.python"
             ],
             "settings": {
-                "foreground": "#c6c6c6"
+                "foreground": "#e0e0e0"
             }
         },
         {
@@ -138,7 +138,7 @@
         {
             "scope": "entity.other.attribute-name",
             "settings": {
-                "foreground": "#d2a106"
+                "foreground": "#bae6ff"
             }
         },
         {
@@ -330,7 +330,7 @@
                 "meta.template.expression"
             ],
             "settings": {
-                "foreground": "#c6c6c6"
+                "foreground": "#e0e0e0"
             }
         },
         {
@@ -341,7 +341,7 @@
                 "source.coffee.embedded"
             ],
             "settings": {
-                "foreground": "#c6c6c6"
+                "foreground": "#e0e0e0"
             }
         },
         {
@@ -359,7 +359,7 @@
         {
             "scope": "keyword.operator",
             "settings": {
-                "foreground": "#c6c6c6"
+                "foreground": "#e0e0e0"
             }
         },
         {
@@ -402,7 +402,7 @@
                 "storage.modifier.package.java"
             ],
             "settings": {
-                "foreground": "#c6c6c6"
+                "foreground": "#e0e0e0"
             }
         },
         {
@@ -419,15 +419,15 @@
                 "keyword.control.at-rule",
             ],
             "settings": {
-                "foreground": "#d2a106"
+                "foreground": "#bae6ff"
             }
         }
     ],
     "semanticHighlighting": true,
     "semanticTokenColors": {
-        "newOperator": "#c6c6c6",
+        "newOperator": "#e0e0e0",
         "stringLiteral": "#6fdc8c",
-        "customLiteral": "#c6c6c6",
+        "customLiteral": "#e0e0e0",
         "numberLiteral": "#3ddbd9"
     }
 }
