@@ -7,3 +7,7 @@
 ## [0.0.2]
 
 - Reduced contrast
+
+## [1.0.0]
+
+- Use modern UI colors
