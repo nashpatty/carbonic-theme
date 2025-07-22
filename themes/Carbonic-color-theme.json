@@ -123,7 +123,7 @@
 		
 		"editor.background": "#262626",
         "editor.foreground": "#e0e0e0",
-        "editor.selectionBackground": "#003a6dd9",
+        "editor.selectionBackground": "#003a6d",
 		"editorWhitespace.foreground": "#525252",
 		"editor.lineHighlightBorder": "#39393980",
         "editorLineNumber.foreground": "#525252",
@@ -137,26 +137,26 @@
         "editorIndentGuide.activeBackground1": "#525252",
         "editorRuler.foreground": "#262626",
         "editor.findMatchBackground": "#750e13",
-        "editor.findMatchHighlightBackground": "#044317d9",
+        "editor.findMatchHighlightBackground": "#0e6027e6",
 
         // terminal colors
-        "terminal.ansiBlack": "#161616",
+        "terminal.ansiBlack": "#262626",
         "terminal.ansiBlue": "#78a9ff",
-        "terminal.ansiBrightBlack": "#161616",
+        "terminal.ansiBrightBlack": "#262626",
         "terminal.ansiBrightBlue": "#78a9ff",
         "terminal.ansiBrightCyan": "#3ddbd9",
         "terminal.ansiBrightGreen": "#6fdc8c",
         "terminal.ansiBrightMagenta": "#d4bbff",
         "terminal.ansiBrightRed": "#fa4d56",
-        "terminal.ansiBrightWhite": "#f4f4f4",
+        "terminal.ansiBrightWhite": "#e0e0e0",
         "terminal.ansiBrightYellow": "#f1c21b",
         "terminal.ansiCyan": "#3ddbd9",
         "terminal.ansiGreen": "#6fdc8c",
         "terminal.ansiMagenta": "#d4bbff",
-        "terminal.ansiRed": "#EA4430",
-        "terminal.ansiWhite": "#f4f4f4",
+        "terminal.ansiRed": "#fa4d56",
+        "terminal.ansiWhite": "#e0e0e0",
         "terminal.ansiYellow": "#f1c21b",
-        "terminal.background": "#262626",
+        "terminal.background": "#161616",
         "terminal.foreground": "#e0e0e0",
 	},
 	"tokenColors": [
@@ -256,7 +256,7 @@
             }
         },
         {
-            "scope": "entity.other.attribute-name",
+            "scope": "entity.other.attribute-name,constant.other",
             "settings": {
                 "foreground": "#bae6ff"
             }
