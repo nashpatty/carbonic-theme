@@ -16,6 +16,11 @@
         "label": "Carbonic",
         "uiTheme": "vs-dark",
         "path": "./themes/Carbonic-color-theme.json"
+      },
+      {
+        "label": "Carbonic Light",
+        "uiTheme": "vs",
+        "path": "./themes/Carbonic-Light-color-theme.json"
       }
     ]
   }
